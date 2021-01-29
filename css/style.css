@@ -1,0 +1,65 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Sniglet', cursive;
+*/
+
+/*common start*/
+body{
+     font-family: 'Dosis', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     background-color: #333333;
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: #ffd338;
+}
+.nav_t_c{
+	color: rgb(241 92 92) !important;
+	border-color: rgb(241 92 92);
+}
+.nav_t_c:focus{
+	color: rgb(241 92 92) !important;
+	border-color: rgb(241 92 92);
+}
+.menu ul li a{
+	font-size: 18px;
+	font-weight: 700;
+	color: white !important;
+	padding: 2px 35px !important;
+	border-radius: 15px;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+
+}
+.d_user{
+	background-color: #ffd338;
+}
+.d_user a{
+	color: white;
+}
+.d_user a:hover{
+    color: #f05c5c;
+}
+.d_user a:focus{
+	outline: 0;
+	box-shadow: 0 0 0 0.25rem rgb(241 92 92 .5);
+}
+.d_user ul {
+	color: #ffd338;
+	top: 165%;
+	left: -110px;
+}
+.d_search{
+	background-color: #ffd338;
+}
+.d_search ul{
+	top: 165%;
+	left: -300px;
+	min-width: 350px;
+}
+
+/*header end*/
